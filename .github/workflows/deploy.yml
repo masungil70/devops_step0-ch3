@@ -36,7 +36,7 @@ jobs:
 
     - name: Add known_hosts
       run: |
-        echo "43.201.37.175 ssh-ed25519 |1|xjZlbTzjWQh9HsnXJEh8LL9yJxk=|MdLWph/uEC89WZhIdJFWrUoC4G0= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBi4N6Miqma8+SY/3krXujAkFUaRJQsks+3bc/OW2uAOcOgXyQ6zsKUnuE/Pn4MLPB5TmAY8nlFv/pCu3MezIDs=" >> ~/.ssh/known_hosts
+        echo "43.201.37.175 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOv6VrKy37/jwgpn2LLby5EEg34Af2pSgBQaFoRGIPb7" >> ~/.ssh/known_hosts
 
     - name: 기존프로세스 종료 
       run: |
